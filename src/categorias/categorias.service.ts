@@ -11,7 +11,7 @@ export class CategoriasService {
         const categoria: Categoria = {
             id: this.idContador,
             nombre: nuevaCategoria.nombre,
-            descripcion: nuevaCategoria.descripcion,
+            descripcion: nuevaCategoria.descripcion
         };
 
         this.categorias.push(categoria);
